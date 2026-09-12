@@ -14,7 +14,7 @@ st.set_page_config(
 st.title("🚗 Used Car Price Predictor")
 st.write("Streamlit app is working!")
 
-df = pd.read_csv(r"C:\Users\kushw\Music\used car data\cardekho_dataset.csv")
+df = pd.read_csv("cardekho_dataset.csv")
 st.markdown("### 🚘 Car Information")
 st.caption("Enter the details of the car to estimate its selling price.")
 
